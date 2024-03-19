@@ -87,6 +87,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 value: "Eddy",
                 child: Text("Eddy"),
               ),
+              DropdownMenuItem<String>(
+                value: "Stan",
+                child: Text("Stan"),
+              ),
             ],
           ),
 
