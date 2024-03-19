@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
           child: DropdownButton<String>(
             value:userName,
             icon: const Icon(Icons.arrow_drop_down_circle_outlined),
-            style: const TextStyle(color: Colors.black, fontSize: 28),
+            style: const TextStyle(color: Colors.blueAccent, fontSize: 28),
 
             onChanged: (String? newValue){
                 setState(() {
